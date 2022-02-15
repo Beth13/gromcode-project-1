@@ -45,7 +45,7 @@
   flex-direction: column;
 
   @include for-large-up {
-    width: 1140px;
+    width: $content-size;
     margin: 0 auto;
     height: 338px;
     display: flex;
@@ -98,7 +98,7 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 28px;
-    color: #2b292d;
+    color: $text-main-color;
     margin: 0;
   }
 
@@ -106,7 +106,7 @@
     list-style-type: none;
     font-size: 18px;
     line-height: 30px;
-    color: #2b292d;
+    color: $text-main-color;
     opacity: 0.6;
     padding: 0;
     margin: 0;
@@ -122,7 +122,7 @@
   @include for-large-up {
     height: 50px;
     flex-direction: row;
-    width: 1140px;
+    width: $content-size;
     margin: 0 auto;
     align-items: center;
   }
@@ -140,7 +140,7 @@
 
   &__items {
     text-decoration: none;
-    color: #2b292d;
+    color: $text-main-color;
     opacity: 0.6;
     margin-right: 22px;
   }
@@ -152,8 +152,8 @@
 
   @include for-large-up {
     margin-left: auto;
-    margin-top: 17px; //does not exist
-    margin-bottom: 16px; //margin-bottom: 0;
+    margin-top: 17px;
+    margin-bottom: 16px;
   }
 
   &__item {

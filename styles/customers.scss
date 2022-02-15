@@ -3,7 +3,7 @@
   flex-direction: column;
 
   @include for-large-up {
-    width: 1140px;
+    width: $content-size;
     margin: auto;
     padding-top: 30px;
     padding-bottom: 106px;
@@ -25,8 +25,8 @@
   &__item {
     width: 107px;
     height: 94px;
-    border-bottom: 1px solid #e3e3e3;
-    border-right: 1px solid #e3e3e3;
+    border-bottom: 1px solid $border-color;
+    border-right: 1px solid $border-color;
     display: flex;
     align-items: center;
     justify-content: center;
